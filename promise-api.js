@@ -1,4 +1,5 @@
 //major used for unit testing
+Promise.resolve({id:1}).then(result=>console.log(result));
 
 const p1=new Promise((resolve)=>{
     setTimeout(()=>{
